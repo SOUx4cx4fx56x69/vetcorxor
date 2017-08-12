@@ -1,5 +1,5 @@
 typedef char __attribute__((__mode__(DI))) bigchar;
-typedef bigchar __attribute__((__vector_size__(16))) bigcharvector;
+typedef bigchar __attribute__((__vector_size__(16))) bigcharvector; // 16/8=2 byte 
 /*
 Q - 8 bits
 H - 16 bits
